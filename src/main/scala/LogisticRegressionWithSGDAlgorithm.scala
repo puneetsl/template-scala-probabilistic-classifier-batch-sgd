@@ -41,4 +41,5 @@ class LogisticRegressionWithSGDAlgorithm(val ap: AlgorithmParams)
     new PredictedResult(label)
   }
 
+  override def isJava: Boolean = false
 }
